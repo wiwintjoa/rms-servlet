@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:44:52 +0800] "GET /rms-servlet-web/ HTTP/1.1" 200 984 http-bio-8080-exec-1 130
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:44:52 +0800] "GET /rms-servlet-web/css/styles.css?v=1.0 HTTP/1.1" 200 3370 http-bio-8080-exec-3 13
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:44:53 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:44:56 +0800] "GET /rms-servlet-web/login? HTTP/1.1" 200 1332 http-bio-8080-exec-5 894
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:45:07 +0800] "POST /rms-servlet-web/login? HTTP/1.1" 302 - http-bio-8080-exec-6 569
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:45:07 +0800] "GET /rms-servlet-web/users/list HTTP/1.1" 200 2396 http-bio-8080-exec-7 220
+0:0:0:0:0:0:0:1 - - [29/Dec/2017:15:45:18 +0800] "GET /rms-servlet-web/users/list HTTP/1.1" 200 2396 http-bio-8080-exec-8 52
