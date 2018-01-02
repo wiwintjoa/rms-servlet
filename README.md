@@ -1,27 +1,6 @@
 # RMS
 Study case project using various technology stack for building Resource Management System
 
-## Overview
-The application is using maven multimodule where each module will provides the same functionalities with different technology stack.
-
-```
-rms (parent project)
-|-- src
-|  |-- main
-|      |-- docker (docker related configuration e.g. database server)
-|      |-- sql (database scripts, sample data)
-|-- rms-servlet-web (Servlet, JSP, JDBC technology stack)
-|  |-- src
-|  |   |-- main
-|  |       |-- java (java source file)
-|  |       |-- resources (configuration, properties)
-|  |       |-- webapp (web specific files, css, js, jsp, html)
-|  |-- pom.xml
-|-- rms-spring-mvc (planned)
-|-- rms-jsf-ejb (planned)
-|-- pom.xml
-```
-
 ## rms-servlet-web
 It is implementing MVC pattern using only Servlet and JSP, combine with plain JDBC to handle databae operation.
 
@@ -29,18 +8,19 @@ It uses tomcat7-maven-plugin to spin up embedded tomcat 7, therefore no need to 
 
 To run the application, execute maven command `mvn tomcat7:run` and browse http://localhost:8080/rms-servlet-web/index.jsp
 
-## rms-servlet-web
-RMS sample project using java servlet, this project is clone from https://github.com/mitraisjavameetup/rms .
+This project is clone from https://github.com/mitraisjavameetup/rms.
 
 This project should have Login feature and CRUD functinoality for user.
 
 Step to develop:
 
-Clone source code from https://github.com/mitraisjavameetup/rms
-Install Eclipse
-Setup Tomcat 7
-Setup MySQL database as RDBMS
-Run SQL script under this folder: \rms-servlet\src\main\sql to create User table
-Open source code on eclipse and import it as maven project
-Run tomcat server by execute command: mvn tomcat7:run to browse base website
-Implement Login and CRUD
+1. Clone source code from https://github.com/mitraisjavameetup/rms
+2. Install Eclipse
+3. Setup Tomcat 7
+4. Setup MySQL database as RDBMS
+5. Run SQL script under this folder: \rms-servlet\src\main\sql to create User table
+6. Open source code on eclipse and import it as maven project
+7. Run tomcat server by execute command: mvn tomcat7:run to browse base website
+8. Implement Login 
+9. Implement CRUD for User object only just for a sample.
+
